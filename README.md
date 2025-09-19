@@ -4,7 +4,7 @@
     # -> bar
     
     curl -H "Accept: application/json" -H "Content-Type: application/json" -X POST --data '{"name": "Alan"}' localhost:8080/hello
-    # -> Hello Prabh!
+    # -> Hello Alan!
     
     curl localhost:8080/kill
     # -> shuts down container
